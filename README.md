@@ -15,7 +15,8 @@ $ docker-compose run app php artisan migrate　# マイグレーション
 
 # 参考にしたサイト
 
-https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4
+https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4  
+https://awesome-linus.com/2019/06/03/laravel-tutorial-routing/
 
 # URL  
 http://127.0.0.1:8080/
