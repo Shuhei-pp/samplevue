@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Task;
 use Illuminate\Database\Seeder;
 
-class TasksTableSeeder extends Seeder
+class TaskTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
