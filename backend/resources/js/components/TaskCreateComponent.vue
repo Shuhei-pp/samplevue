@@ -31,10 +31,14 @@
         },
         methods: {
             submit() {
-                axios.post('/api/tasks',this.task)
-                    .then((res) => {
-                        this.$router.push({name: 'task.list'});
-                    });
+                $.ajax({
+                    type: "post",
+                    url: '/api/tasks',
+                    data: this.task
+                })
+                .then((res) => {
+                    this.$router.push({name: 'task.list'});
+                });
             }
         }
     }
