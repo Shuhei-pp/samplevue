@@ -33,7 +33,6 @@
             submit() {
                 axios.post('/api/tasks',this.task)
                     .then((res) => {
-                        console.log(res);
                         this.$router.push({name: 'task.list'});
                     });
             }
