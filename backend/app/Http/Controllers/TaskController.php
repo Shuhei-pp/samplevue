@@ -20,6 +20,7 @@ class TaskController extends Controller
 
     public function store(Request $request)
     {
+        echo 'aaaa';
         return Task::create($request->all());
     }
 
